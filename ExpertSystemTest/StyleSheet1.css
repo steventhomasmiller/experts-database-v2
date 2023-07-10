@@ -3081,8 +3081,8 @@ output {
 }
 
 .form-control {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 88%;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -13108,6 +13108,10 @@ div.profile-link a {
     padding-left: 0 !important;
     padding-right: 0 !important;
     border: 3px solid white;
+}
+
+span.disclaimer {
+    color: white;
 }
 
 

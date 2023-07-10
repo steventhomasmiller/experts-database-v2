@@ -11,7 +11,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <meta name="description" content="Description"/>
       <meta name="keywords" content="Description"/>
-    <title/>Experts Database | MSU Billings</title/>
+    <title>Experts Database | MSU Billings</title>
     <!-- Mobile Chrome, Firefox -->
 <meta name="theme-color" content="#2268AF"/>
 <!-- WP, Mobile IE -->
@@ -175,8 +175,9 @@
          <form method="get">
   <div>
 
-    <input type="text" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
-    <input type="submit" value="Search Topic/Name" /><br/>
+    <input type="text" class="form-control" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
+    <button class="btn btn-default" id="search-button" aria-label="execute program search" title="execute program search"><i class="fa fa-search"></i></button>
+      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> Email University Commununications and Marketing for media inquiries.</span>
     (Leave blank to list all Experts.)<br/>
     </div>
 </form>
