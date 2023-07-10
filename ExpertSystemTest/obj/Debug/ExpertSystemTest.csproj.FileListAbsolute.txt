@@ -1,0 +1,101 @@
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\ApplicationInsights.config
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\csc.exe
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\vbc.exe
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\ExpertSystemTest.dll.config
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\ExpertSystemTest.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\ExpertSystemTest.pdb
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.Web.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.ApplicationInsights.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.Web.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.ApplicationInsights.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\obj\Debug\ExpertSystemTest.csprojResolveAssemblyReference.cache
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\obj\Debug\ExpertSystemTest.dll
+C:\Users\p33x971.MSUBILLINGS\OneDrive - Montana State University\Desktop\expert system test\ExpertSystemTest\ExpertSystemTest\obj\Debug\ExpertSystemTest.pdb
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\ApplicationInsights.config
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\csc.exe
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\vbc.exe
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\ExpertSystemTest.dll.config
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\ExpertSystemTest.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\ExpertSystemTest.pdb
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.Web.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.ApplicationInsights.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.Web.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.ApplicationInsights.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\obj\Debug\ExpertSystemTest.csprojResolveAssemblyReference.cache
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\obj\Debug\ExpertSystemTest.dll
+C:\Users\p33x971.MSUBILLINGS\Source\Repos\Expert\ExpertSystemTest\obj\Debug\ExpertSystemTest.pdb
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\ApplicationInsights.config
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\csc.exe
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\vbc.exe
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\ExpertSystemTest.dll.config
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\ExpertSystemTest.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\ExpertSystemTest.pdb
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.Web.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.ApplicationInsights.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.Web.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.ApplicationInsights.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.AssemblyReference.cache
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.CoreCompileInputs.cache
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\obj\Debug\ExpertSystemTest.csproj.CopyComplete
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\obj\Debug\ExpertSystemTest.dll
+C:\Users\j98b363\source\repos\experts-database-v2\ExpertSystemTest\obj\Debug\ExpertSystemTest.pdb
