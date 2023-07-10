@@ -9,16 +9,16 @@
         <ItemTemplate>
 
            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 program-block">
-                        <a href="<%#Eval("FS_URL")%>">
+                        
                             <div><img src="<%#Eval("Img_url") %>" alt="Photo of "<%# Eval("name") %>></div>
                             <div class="program-name">
-                                <div class="program-title"><%# Eval("name") %></div>
+                                <div class="program-title"><a href="<%#Eval("FS_URL")%>"><%# Eval("name") %></div></a>
                                 <div class="program-sub-description"><%# Eval("College") %></div>
                                 <br />
                                     <p><strong>Department:</strong><br/><%# Eval("Dept") %></p>
                                     <p class="specialization"><strong>Specialization:</strong><br/><%# Eval("Specialization") %></p>
                             </div>
-                        </a>
+                        
                     </div>
             
                         

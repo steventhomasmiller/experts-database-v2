@@ -93,7 +93,7 @@
                      </div>
                      <div id="stick" data-spy="affix" data-offset-top="125">
                         <ul class="siteheaderlinks">
-                           <li id="sitelogo"><a class="navbar-brand" href="https://www.msubillings.edu/"><img src="/img/msub_header_logo-white2.svg" alt="Montana State University Billings" title="Montana State University Billings" height="44" width="174"></a></li>
+                           <li id="sitelogo"><a class="navbar-brand" href="https://www.msubillings.edu/"><img src="https://www.msubillings.edu/_resources/msu/2/images/structure/msubillings/msub_header_logo-white2.svg" alt="Montana State University Billings" title="Montana State University Billings" height="44" width="174"></a></li>
                         </ul>
                         <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
                            <li class="pull-left" id="menu-nav"><a href="#" title="Menu" id="menuButton" class="menu-button pull-left"><span class="burger-icon"><span class="sr-only"></span></span></a></li>
@@ -162,7 +162,7 @@
                             <br />
                             <td class="mceEditable _content _page-title">Experts Search</td>
                         </h1>
-                        <td class="mceEditable _content _page-banner"><img src="/img/TEST-Billings-Montana-MSUB.jpg" alt="city of billings" width="" height="" /></td>
+                        <td class="mceEditable _content _page-banner"><img src="https://www.msubillings.edu/future/degrees/img/TEST-Billings-Montana-MSUB.jpg" alt="city of billings" width="" height="" /></td>
                         <form id="search-form" class="row">
                             <div id="mode-container">
                                 <input id="search-mode" value="" type="hidden" />
@@ -176,9 +176,10 @@
   <div>
 
     <input type="text" class="form-control" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
+      
     <button class="btn btn-default" id="search-button" aria-label="execute program search" title="execute program search"><i class="fa fa-search"></i></button>
-      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> Email University Commununications and Marketing for media inquiries.</span>
-    (Leave blank to list all Experts.)<br/>
+      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong></span>
+    <br/>
     </div>
 </form>
      </div>

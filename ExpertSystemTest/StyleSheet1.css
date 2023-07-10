@@ -13045,6 +13045,7 @@ textarea {
         text-decoration: none;
         color: #FFFFFF;
         margin-top: 15px;
+        padding-top: 15px;
     }
 
 .program-block > a {
@@ -13071,7 +13072,13 @@ div.program-name div a, div.program-name div {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     color: #FFFFFF;
+    text-decoration: underline;
 }
+
+    .program-name .program-title a:hover {
+        color: #ffcb05;
+        text-decoration: none;
+    }
 
 .program-name, .selectize-control {
     min-height: 72px !important;
@@ -13113,6 +13120,20 @@ div.profile-link a {
 span.disclaimer {
     color: white;
 }
+
+span.disclaimer a {
+    color: white;
+}
+
+span.disclaimer a:visited {
+    color: white;
+
+}
+
+    span.disclaimer a:hover {
+        color: #ffcb05;
+        text-decoration: none;
+    }
 
 
 
@@ -13192,6 +13213,7 @@ span.disclaimer {
     border: none;
     font-size: 20px;
     color: #fff;
+    margin-bottom: 5px;
 }
 
 #search-button {
