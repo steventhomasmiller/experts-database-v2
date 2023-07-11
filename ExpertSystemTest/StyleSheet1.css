@@ -13016,7 +13016,7 @@ body > #mus-topalert > .mus-web-test-alert {
     border-bottom: 5px solid #333
 }
 
-/*Repurpose Program Page Styles*/
+/*Repurpose expert Page Styles*/
 
 
 input[type='text'],
@@ -13026,20 +13026,20 @@ textarea {
 }
 
 
-/* ---------------------------- program cards ------------------------------- */
+/* ---------------------------- expert cards ------------------------------- */
 
-#programs {
+#experts {
     min-height: 266px;
 }
 
-    #programs img {
+    #experts img {
         width: 50%;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
 
-    #programs .program-block {
+    #experts .expert-block {
         display: block;
         position: relative;
         text-decoration: none;
@@ -13048,44 +13048,44 @@ textarea {
         padding-top: 15px;
     }
 
-.program-block > a {
+.expert-block > a {
     display: block;
     position: relative;
     text-decoration: none;
     color: #FFFFFF;
     margin-top: 15px;
 }
-    
-#programs div.program-name {
+
+#experts div.expert-name {
     background: #003f7f;
     padding: 10px;
     width: 100%;
 }
 
-div.program-name div a, div.program-name div {
+div.expert-name div a, div.expert-name div {
     color: #eeeeee;
     font-size: 19px;
     text-decoration: none;
 }
 
-.program-name .program-title {
+.expert-name .expert-title {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     color: #FFFFFF;
     text-decoration: underline;
 }
 
-    .program-name .program-title a:hover {
+    .expert-name .expert-title a:hover {
         color: #ffcb05;
         text-decoration: none;
     }
 
-.program-name, .selectize-control {
+.expert-name, .selectize-control {
     min-height: 72px !important;
     font-family: 'Open Sans', serif;
 }
 
-.program-sub-description {
+.expert-sub-description {
     font-family: "Open Sans", serif;
     font-size: 16px !important;
     margin-top: 10px;
@@ -13101,7 +13101,7 @@ div.program-name div a, div.program-name div {
 }
 
 div.profile-link a {
-    color:hotpink !important;
+    color: hotpink !important;
     font-size: 16px !important;
 }
 
@@ -13110,7 +13110,7 @@ div.profile-link a {
     flex-wrap: wrap;
 }
 
-.program-block {
+.expert-block {
     background: rgb(0, 63, 127);
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -13121,19 +13121,18 @@ span.disclaimer {
     color: white;
 }
 
-span.disclaimer a {
-    color: white;
-}
-
-span.disclaimer a:visited {
-    color: white;
-
-}
-
-    span.disclaimer a:hover {
-        color: #ffcb05;
-        text-decoration: none;
+    span.disclaimer a {
+        color: white;
     }
+
+        span.disclaimer a:visited {
+            color: white;
+        }
+
+        span.disclaimer a:hover {
+            color: #ffcb05;
+            text-decoration: none;
+        }
 
 
 
@@ -13162,18 +13161,18 @@ span.disclaimer a:visited {
         font-size: 25px !important;
     }
 
-    .program-block img {
+    .expert-block img {
         display: none !important;
     }
 
-    #programs div.program-name {
+    #experts div.expert-name {
         position: relative;
         bottom: inherit;
         padding: 15px !important;
         text-align: center;
     }
 
-    #programs div.program-block {
+    #experts div.expert-block {
         margin-bottom: 2px;
     }
 
@@ -13348,7 +13347,7 @@ h1 {
     display: none;
 }
 
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         display: block;
         position: absolute;
         font-size: 4.5em;
@@ -13371,7 +13370,7 @@ h1 {
 /* give some responsive help to the <h1> */
 
 @media (min-width: 0px) {
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         font-size: 1.5em;
         margin-top: 0;
         width: 93%;
@@ -13380,7 +13379,7 @@ h1 {
 }
 
 @media (min-width: 410px) {
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         font-size: 1.8em;
         padding-top: 2px;
         margin-top: 0;
@@ -13391,50 +13390,50 @@ h1 {
 
 
 @media (min-width: 768px) {
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         margin-top: 0;
         padding-top: 2px;
         font-size: 2.3em;
         line-height: 35px;
     }
 
-    .program-block.col-sm-6 {
+    .expert-block.col-sm-6 {
         width: 49.5%;
     }
 
-    #programs {
+    #experts {
         padding-left: 13px;
     }
 }
 
 @media (min-width: 992px) {
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         margin-top: 0px;
         line-height: 45px;
         font-size: 3.0em;
     }
 
-    .program-block.col-md-4 {
+    .expert-block.col-md-4 {
         width: 33.0%;
     }
 }
 
 @media (min-width: 1200px) {
-    h1#program-pages-heading {
+    h1#expert-pages-heading {
         margin-top: 10px;
         line-height: 70px;
         font-size: 4.0em;
     }
 
-    .program-block.col-lg-3 {
+    .expert-block.col-lg-3 {
         width: 24.5%;
     }
 
-    .program-block.col-lg-4 {
+    .expert-block.col-lg-4 {
         width: 20.0%;
     }
 
-    #programs {
+    #experts {
         padding-left: 25px;
     }
 }

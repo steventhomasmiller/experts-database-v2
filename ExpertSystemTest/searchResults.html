@@ -8,12 +8,12 @@
     <asp:ListView ID="ListView1" runat="Server">
         <ItemTemplate>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 program-block">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 expert-block">
                 
                     <div><img src="<%#Eval(" Img_url") %>" alt="Photo of "<%# Eval("name") %>></div>
-                    <div class="program-name">
-                        <div class="program-title"><%# Eval("name") %></div>
-                        <div class="program-sub-description"><%# Eval("College") %></div>
+                    <div class="expert-name">
+                        <div class="expert-title"><%# Eval("name") %></div>
+                        <div class="expert-sub-description"><%# Eval("College") %></div>
                         <p><strong>Department:</strong><br /><%# Eval("Dept") %></p>
                         <p class="specialization"><strong>Specialization:</strong><br /><%# Eval("Specialization") %></p>
                     </div>

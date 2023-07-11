@@ -63,12 +63,15 @@
 
              var page_id = "https://www.msubillings.edu/future/degrees/index-new-search.htm";
 </script><!-- don't self close -->
-      <link type="text/css" href="https://www.msubillings.edu/future/degrees/__css-js-php/select2.min.css" rel="stylesheet">
-      <link href="https://www.msubillings.edu/future/degrees/__css-js-php/program-search.css?v=6" rel="stylesheet"><script src="https://www.msubillings.edu/experts/__css-js-php/program-search.js"></script><script src="https://www.msubillings.edu/future/degrees/__css-js-php/select2.min.js" type="text/javascript"></script><link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-      <style>
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    
+          
+          <style>
  #mode-container {
    display: none;
 }
+
+
 </style>
    </head>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -157,8 +160,8 @@
             <div class="container">
                 
                 <div class="row">
-                    <div id="program-banner-container" class="col-lg-12">
-                        <h1 id="program-pages-heading">
+                    <div id="expert-banner-container" class="col-lg-12">
+                        <h1 id="expert-pages-heading">
                             <br />
                             <td class="mceEditable _content _page-title">Experts Search</td>
                         </h1>
@@ -177,7 +180,7 @@
 
     <input type="text" class="form-control" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
       
-    <button class="btn btn-default" id="search-button" aria-label="execute program search" title="execute program search"><i class="fa fa-search"></i></button>
+    <button class="btn btn-default" id="search-button" aria-label="execute expert search" title="execute expert search"><i class="fa fa-search"></i></button>
       <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong></span>
     <br/>
     </div>
@@ -185,46 +188,7 @@
      </div>
                             </div>
 
-                            <!-- 
-                            <div class="col-lg-offset-1 col-lg-5 col-sm-6" id="filter-degree-container">
-                                <select class="form-control" id="filter-degree" title="filter by degree">
-                                    <option></option>
-                                    <option value="two-year">Two Year Degrees</option>
-                                    <option value="undergrad">Undergraduate Degrees</option>
-                                    <option value="graduate">Graduate Degrees</option>
-                                    <option value="grad-cert">Graduate Certificates</option>
-                                    <option value="masters">Master's Degrees</option>
-                                    <option value="acc-masters">Accelerated Master's Degrees</option>
-                                    <option value="doctoral">Doctoral Degrees</option>
-                                    <option value="non-degree">Non-Degree Programs</option>
-                                    <option value="certificate">Undergraduate Certificates</option>
-                                    <option value="special">Special Programs</option>
-                                    <option value="online">Online Programs</option>
-                                    <option value="option">Options Within A Major</option>
-                                    <option value="teach-maj">Teaching Major</option>
-                                    <option value="teach-min">Teaching Minor</option>
-                                    <option value="minor">Minor</option>
-                                </select>
-                            </div>
-                            <div class="col-lg-5 col-sm-6" id="filter-interest-container">
-                                <select class="form-control" id="filter-interest" title="filter by interest">
-                                    <option></option>
-                                    <option value="agr">Agriculture</option>
-                                    <option value="art">Arts &amp; Architecture</option>
-                                    <option value="bus">Business &amp; Management</option>
-                                    <option value="com">Communication</option>
-                                    <option value="edu">Education</option>
-                                    <option value="eng">Engineering &amp; Technology</option>
-                                    <option value="env">Environment</option>
-                                    <option value="wel">Health &amp; Wellness</option>
-                                    <option value="hos">Hospitality</option>
-                                    <option value="hum">Humanities</option>
-                                    <option value="mat">Mathematics</option>
-                                    <option value="sci">Science &amp; Research</option>
-                                    <option value="sec">Security</option>
-                                    <option value="sus">Sustainability</option>
-                                </select>
-                            </div> -->
+                            
                         </form>
                     </div>
                 </div>
@@ -232,12 +196,12 @@
 
     <form id="form1" runat="server">
     <div>
-        <div id="programs" class="row equal">
+        <div id="experts" class="row equal">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
           
         </asp:ContentPlaceHolder>
 
-     <!-- End programs id --> </div>    
+     <!-- End experts id --> </div>    
     </div>
     </form>
      <!-- ends container--> </div>
