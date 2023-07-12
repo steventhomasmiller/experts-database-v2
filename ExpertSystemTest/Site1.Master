@@ -178,10 +178,13 @@
          <form method="get">
   <div>
 
-    <input type="text" class="form-control" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
+    <input type="text" class="form-control" id="search-experts" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
+      
       
     <button class="btn btn-default" id="search-button" aria-label="execute expert search" title="execute expert search"><i class="fa fa-search"></i></button>
-      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong></span>
+      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong><br />
+          Begin <a href="/test/steve-miller/experts-database/index.aspx">new search</a>.
+      </span>
     <br/>
     </div>
 </form>
