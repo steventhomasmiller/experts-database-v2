@@ -13163,7 +13163,7 @@ span.disclaimer {
     }
 
     .expert-block img {
-        display: none !important;
+        display: block;
     }
 
     #experts div.expert-name {

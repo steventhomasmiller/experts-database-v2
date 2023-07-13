@@ -13119,6 +13119,7 @@ div.profile-link a {
 
 span.disclaimer {
     color: white;
+    display: inline-block;
 }
 
     span.disclaimer a {
@@ -13176,7 +13177,7 @@ span.disclaimer {
         margin-bottom: 2px;
     }
 
-    #search-majors-degrees {
+    #search-experts {
         padding: 25px 15px;
     }
 
@@ -13217,7 +13218,7 @@ span.disclaimer {
 
 #search-button {
     height: 34px;
-    padding: 3px 20px;
+    padding: 3px 18px;
     background: #003f7f !important;
     border-radius: 0;
 }
@@ -13254,11 +13255,16 @@ input#search {
     margin-bottom: 0;
 }
 
-#search-majors-degrees {
+#search-experts {
     border-radius: 0;
     border: none;
 }
 
+@media (max-width: 575px) {
+    #search-button {
+        padding: 3px 6px;
+    }
+}
 
 
 #search-form select, #search-form .selectize-control {
