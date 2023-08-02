@@ -22,7 +22,7 @@ namespace ExpertSystemTest
             string where = Request.QueryString["searchExpert"]; 
             string conStr = WebConfigurationManager.ConnectionStrings["ExpertConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(conStr);
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization],[FS_URL]FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc]Where([Specialization] like '% " + where+"%' or[FirstName]like '"+where+"%' or[LastName]like '"+where+"%') order by[LastName]", con);
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization],[FS_URL]FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc]Where([Specialization] like '% " + where + "%' or[FirstName]like '" + where + "%' or[LastName]like '" + where + "%'or[College]like '" + where + "%') order by[LastName]", con);
 
 
             DataTable dt = new DataTable();
