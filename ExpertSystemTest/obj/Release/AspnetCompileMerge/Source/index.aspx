@@ -10,7 +10,7 @@
 
            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 expert-block">
                         
-                            <div><img src="<%#Eval("Img_url") %>" alt="Photo of "<%# Eval("name") %>></div>
+                            <div><img src='<%# Eval("Img_url") %>' alt='<%# "Photo of " + Eval("name") %>' /></div>
                             <div class="expert-name">
                                 <div class="expert-title"><a href="<%#Eval("FS_URL")%>"><%# Eval("name") %></div></a>
                                 <div class="expert-sub-description"><%# Eval("College") %></div>
