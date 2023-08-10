@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQQrB5VHrdUG0eORb8eJ0iAAAAAACAAAAAAADZgAAwAAAABAAAAA6ygXVsmur+Fc/D146xfLUAAAAAASAAACgAAAAEAAAAAcRqZVHuzppOILFu9jPrjYYAAAALjVVKmbSyiyf9UP/VMaf8hkHOn58JmWjFAAAAF7pFnbaVfdyDIoFcqfm0WwRm1uO</EncryptedPassword>
     <_PublishTargetUrl>ftp://www.msubillings.edu:26/test/steve-miller/experts-database</_PublishTargetUrl>
-    <History>True|2023-08-02T21:17:14.8000453Z;True|2023-07-14T13:12:24.1893807-06:00;True|2023-07-12T16:18:08.3412762-06:00;True|2023-07-12T15:23:25.0122618-06:00;True|2023-07-12T15:20:48.1582808-06:00;True|2023-07-12T15:18:28.3936607-06:00;True|2023-07-11T11:39:35.4043723-06:00;True|2023-07-11T11:35:18.6975591-06:00;True|2023-07-11T09:00:10.4885957-06:00;</History>
+    <History>True|2023-08-03T16:43:54.0878232Z;True|2023-08-02T15:17:14.8000453-06:00;True|2023-07-14T13:12:24.1893807-06:00;True|2023-07-12T16:18:08.3412762-06:00;True|2023-07-12T15:23:25.0122618-06:00;True|2023-07-12T15:20:48.1582808-06:00;True|2023-07-12T15:18:28.3936607-06:00;True|2023-07-11T11:39:35.4043723-06:00;True|2023-07-11T11:35:18.6975591-06:00;True|2023-07-11T09:00:10.4885957-06:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -21,10 +21,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/07/2023 10:02:49</publishTime>
     </File>
     <File Include="bin/ExpertSystemTest.dll">
-      <publishTime>08/02/2023 15:17:05</publishTime>
+      <publishTime>08/03/2023 10:43:45</publishTime>
     </File>
     <File Include="bin/ExpertSystemTest.pdb">
-      <publishTime>08/02/2023 15:17:05</publishTime>
+      <publishTime>08/03/2023 10:43:45</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>07/07/2023 10:02:51</publishTime>
@@ -96,7 +96,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/07/2023 10:58:35</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/02/2023 15:17:12</publishTime>
+      <publishTime>08/03/2023 10:43:50</publishTime>
     </File>
     <File Include="scripts/ai.0.22.9-build00167.js">
       <publishTime>07/07/2023 10:02:51</publishTime>
@@ -111,7 +111,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 16:09:54</publishTime>
     </File>
     <File Include="StyleSheet1.css">
-      <publishTime>07/13/2023 12:41:57</publishTime>
+      <publishTime>08/03/2023 10:37:42</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>07/11/2023 11:39:32</publishTime>

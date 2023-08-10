@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Configuration;
 using System.Web.UI;
@@ -19,11 +20,63 @@ namespace ExpertSystemTest
         {
             //searchExpertLabel lbl = (Label)Page.Master.FindControl("searchExpert");
 
-            string where = Request.QueryString["searchExpert"]; 
+            //vars for storing search words
+
+            string whereStr = "";
+
+            string where1 = null;
+
+            string where2 = null;
+
+            string where3 = null;
+
+            //Search topic text field filter and split
+
+            whereStr = Request.QueryString["searchExpert"];
+
+            if (whereStr != null)
+            {
+                Regex badWords = new Regex("the ", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+                whereStr = badWords.Replace(whereStr, string.Empty);
+
+                //removes rest of filler words
+                badWords = new Regex(" and | of | but | the | or ", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+                whereStr = badWords.Replace(whereStr, string.Empty + " ");
+
+                string[] temp = whereStr.Split();
+
+                //writes array values to variables for filter
+
+                if (temp.Length >= 1)
+
+                {
+                    where1 = temp[0];
+
+                }
+
+                if (temp.Length >= 2)
+
+                {
+                    where2 = temp[1];
+
+                }
+
+                if (temp.Length == 3)
+
+                {
+                    where3 = temp[2];
+
+                }
+            }
+
+            //assigns values to string array
+
+            
+
+
             string conStr = WebConfigurationManager.ConnectionStrings["ExpertConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(conStr);
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization],[FS_URL]FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc]Where([Specialization] like '% " + where + "%' or[FirstName]like '" + where + "%' or[LastName]like '" + where + "%'or[College]like '" + where + "%') order by[LastName]", con);
-
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization],[FS_URL]FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc]Where(([Specialization]  like "where1+%" and [Specialization] like "where2" and [Specialization] like "where3") or ([FirstName] like "where1" and [FirstName] like "where2" and [FirstName] like "where3") or([LastName] like "where1" and [LastName] like "where2" and [LastName] like "where3") or ([Dept] like "where1" and [Dept] like "where2" and [Dept] like "where3")) order by[LastName]", con);
 
             DataTable dt = new DataTable();
             sda.Fill(dt);
