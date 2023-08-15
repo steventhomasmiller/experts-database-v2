@@ -77,7 +77,7 @@ namespace ExpertSystemTest
 
             string conStr = WebConfigurationManager.ConnectionStrings["ExpertConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(conStr);
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] as name,[College],[Dept],[Specialization],[FS_URL]FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc] Where (([Specialization] like '%" + where1 + "%' and [Specialization] like '%" + where2 + "%' and [Specialization] like '%" + where3 + "%') or ([FirstName]  like '%" + where1 + "%' and [FirstName]  like '%" + where2 + "%' and [FirstName]  like '%" + where3 + "%') or ([LastName]   like '%" + where1 + "%' and [LastName]   like '%\"+where2+\"%' and [LastName] like '%" + where3 + "%') or ([Dept] like '%" + where1 + "%' and [Dept] like '%" + where2 + "%' and [Dept] like '%" + where3 + "%')) order by[LastName]", con);
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT [img_URL], [FirstName]+' '+[MiddleName]+' '+[LastName] name,[College],[Dept],[Specialization],[FS_URL] FROM[Expert_system_data].[dbo].[Fac_Success_Images_facSuc] Where (([Specialization] like '%" + where1 + "%' and [Specialization] like '%" + where2 + "%' and [Specialization] like '%" + where3 + "%') or ([FirstName]  like '%" + where1 + "%' and [LastName]  like '%" + where2 + "%' and [LastName]  like '%" + where3 + "%') or ([LastName]  like '%" + where1 + "%') or ([Dept] like '%" + where1 + "%' and [Dept] like '%" + where2 + "%' and [Dept] like '%" + where3 + "%')) order by[LastName]", con);
 
             DataTable dt = new DataTable();
             sda.Fill(dt);
