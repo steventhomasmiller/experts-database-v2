@@ -1,0 +1,387 @@
+﻿﻿<%@  Language="C#"  AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ExpertSystemTest.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="description" content="Below is a list of experts on various topics at MSUB in alphabetical order. Use the search bar to find people by name, expertise, department, etc."/>
+      <meta name="keywords" content="Description"/>
+    <title>Experts Database | MSU Billings</title>
+    <!-- Mobile Chrome, Firefox -->
+<meta name="theme-color" content="#2268AF"/>
+<!-- WP, Mobile IE -->
+<meta name="msapplication-navbutton-color" content="#2268AF"/>
+<!-- Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<!-- Favicon -->
+<link rel="icon" sizes="16x16" href="/_resources/msu/2/images/structure/logos/billings-favicon.ico" />
+
+<link rel="icon" sizes="192x192" href="/_resources/msu/2/images/structure/msubillings/favicon.png" />
+<link href="/_resources/msu/2/styles/billings-styles.css?d=20200226" rel="stylesheet" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+      <link href="/_resources/msu/2/slick/slick.css" rel="stylesheet" type="text/css"/>
+      <link href="/_resources/msu/2/slick/slick-theme.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link href="/_resources/msu/2/styles/slickslider.css" rel="stylesheet" type="text/css"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>(function (w, d, s, l, i) {
+                                                                                                                                                                                        w[l] = w[l] || []; w[l].push({
+                                                                                                                                                                                            'gtm.start':
+                                                                                                                                                                                                new Date().getTime(), event: 'gtm.js'
+                                                                                                                                                                                        }); var f = d.getElementsByTagName(s)[0],
+                                                                                                                                                                                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                                                                                                                                                                                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                                                                                                                                                                                    })(window, document, 'script', 'dataLayer', 'GTM-N6LWHNM');</script><script>(function (w, d, s, l, i) {
+                                                                        w[l] = w[l] || []; w[l].push({
+                                                                            'gtm.start':
+                                                                                new Date().getTime(), event: 'gtm.js'
+                                                                        }); var f = d.getElementsByTagName(s)[0],
+                                                                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                                                                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                                                                    })(window, document, 'script', 'dataLayer', 'GTM-PR87H4K');</script><script src="https://www.googletagmanager.com/gtag/js?id=UA-50053-1"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-50053-1"></script><script>
+                                                                                                                                                                                                                                window.dataLayer = window.dataLayer || [];
+                                                                                                                                                                                                                                function gtag() { dataLayer.push(arguments); }
+                                                                                                                                                                                                                                gtag('js', new Date());
+
+                                                                                                                                                                                                                                gtag('config', 'UA-50053-1');
+</script><script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag() { dataLayer.push(arguments); }
+             gtag('js', new Date());
+
+             gtag('config', 'UA-50053-1');
+</script><script type="text/javascript">
+             OUC = typeof OUC !== "undefined" ? OUC : {};
+             OUC.XSLVariables = typeof OUC.XSLVariables !== "undefined" ? OUC.XSLVariables : {};
+             OUC.XSLVariables.dirName = "/test/steve-miller/experts-database/";
+             OUC.XSLVariables.pageName = OUC.XSLVariables.dirName + "index.aspx";
+             OUC.XSLVariables.httpRoot = "https://www.msubillings.edu/";
+
+             var page_id = "https://www.msubillings.edu/test/steve-miller/experts-database/index.aspx";
+</script><!-- don't self close -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    
+          
+          <style>
+ #mode-container {
+   display: none;
+}
+
+
+</style>
+   </head>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+ <body class="responsive"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N6LWHNM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PR87H4K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="mus-topalert" id="mus-topalert" data-alert-url="https://www.montana.edu/assets/feeds/msubillings-alert.html" style="display:none;"></div>
+      <header class="wrapper" id="header" role="banner">
+         <div class="container" id="banner"><img class="visible-print" src="/img/msub_header_logo-white2.svg" height="63" width="250" alt="images/structure/msubillings/msub_header_logo-white2.svg"><div class="row clearfix hidden-print">
+               <div class="col-sm-12 cf">
+                  <div class="row">
+                     <div class="col-sm-4 col-md-6 column pull-right text-right hidden-xs nav pull-right text-left" id="header-tools">
+                        <div class="row clearfix">
+                           <div id="searchbox" class="col-md-6 col-lg-6 col-sm-12 text-right column search pull-right" role="search">
+                              <div class="row">
+                                 <div class="col-md-12">
+                                    <form id="search" method="get" action="https://www.msubillings.edu/search/" class="form-horizontal" role="search"><input type="hidden" name="cx" value="008992511269271655684:zana6q1rfbs"><input type="hidden" name="cof" value="FORID:11"><div class="input-group input-group-sm"><label for="srch-term" class="sr-only">Search</label><input type="search" id="srch-term" name="q" class="form-control" placeholder="Search pages &amp; people"><span class="input-group-btn"><button class="btn btn-default btn-search" name="sa" type="submit"><span class="fa fa-search"><span class="sr-only">Search</span></span></button></span></div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="stick" data-spy="affix" data-offset-top="125">
+                        <ul class="siteheaderlinks">
+                           <li id="sitelogo"><a class="navbar-brand" href="https://www.msubillings.edu/"><img src="https://www.msubillings.edu/_resources/msu/2/images/structure/msubillings/msub_header_logo-white2.svg" alt="Montana State University Billings" title="Montana State University Billings" height="44" width="174"></a></li>
+                        </ul>
+                        <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
+                           <li class="pull-left" id="menu-nav"><a href="#" title="Menu" id="menuButton" class="menu-button pull-left"><span class="burger-icon"><span class="sr-only"></span></span></a></li>
+                           <li class="pull-right" id="menu-search"><a title="Search" href="#" class="pull-left dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"><span class="sr-only">Search</span></span></a></li>
+                        </ul>
+                        <div id="menu-search-open" class="hidden-md hidden-lg hidden-sm clearfix">
+                           <div class="col-sm-12">
+                              <form id="mobile_search" method="get" action="https://www.msubillings.edu/search/" class="form-horizontal form-inline grey-background " role="search"><input type="hidden" name="cx" value="008992511269271655684:zana6q1rfbs"><input type="hidden" name="cof" value="FORID:11"><div class="input-group input-group"><label for="srch-term2" class="sr-only">Search</label><input id="srch-term2" type="search" name="q" class="form-control" placeholder="Search pages &amp; people"><span class="input-group-btn"><button class="btn btn-default btn-search" name="sa" type="submit">
+                                          															Search
+                                          														</button></span></div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+       <div class="container" id="content">
+            <div class="row">
+                <div id="rightpane" class="background-divided col-xs-12 pull-right page-content sec col-sm-12">
+                    <div class="row">
+                        <div id="breadcrumb" class="clearfix col-sm-12 hidden-print">
+                            <!-- <ul class="breadcrumb">
+                                <li><a href="/future/">Future Students</a></li>
+                                <li><a href="/future/degrees/">COVID-19 Central</a></li>
+                            </ul> --> 
+                        </div>
+                        <div class="col-sm-12 page-header clearfix">
+                            <h1>Experts Database</h1>
+                            <div class="row clearfix hidden-print">
+                                <div id="yamm-placeholder">
+                                    <div id="stick2" class="col-sm-12 affix-top" data-spy="affix" data-offset-top="125">
+                                        <div id="stickpad" class="row">
+                                            <div class="yamm">
+                                                <div class="container">
+                                                    <div id="navbar-collapse-1"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 clearfix page-wrapper">
+                            <div class="row">
+                                <main id="maincontent" role="main" class="col-sm-12">
+                                    <!-- don't self close -->
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="wrapper clearfix buffer-top buffer-bottom">
+            <div class="container">
+                
+                <div class="row">
+                    <div id="expert-banner-container" class="col-lg-12">
+                        <h1 id="expert-pages-heading">
+                            <br />
+                            <td class="mceEditable _content _page-title">Experts Search</td>
+                        </h1>
+                        <td class="mceEditable _content _page-banner"><img src="https://www.msubillings.edu/future/degrees/img/TEST-Billings-Montana-MSUB.jpg" alt="city of billings" width="" height="" /></td>
+                        <form id="search-form" class="row">
+                            <div id="mode-container">
+                                <input id="search-mode" value="" type="hidden" />
+                                <div id="mode-buttons">
+                                    <a class="view-all" href="/academics">View All</a><a class="view-undergrad" href="/academics/undergraduate">Undergraduate</a><a class="view-grad" href="/academics/graduate">Graduate</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-offset-2 col-lg-8">
+                               <div id="searcher">         
+         <form method="get">
+  <div>
+
+    <input type="text" class="form-control" id="search-experts" name="searchExpert" value=""placeholder="Search by Topic/Name"  />
+      
+      
+    <button class="btn btn-default" id="search-button" aria-label="execute expert search" title="execute expert search"><i class="fa fa-search"></i></button>
+      <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong><br />
+          Begin <a href="/test/steve-miller/experts-database/index.aspx">new search</a>.
+      </span>
+    <br/>
+    </div>
+</form>
+     </div>
+                            </div>
+
+                            
+                        </form>
+                    </div>
+                </div>
+                <p>&nbsp;</p>
+
+    <form id="form1" runat="server">
+    <div>
+        <div id="experts" class="row equal">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+
+     <!-- End experts id --> </div>    
+    </div>
+    </form>
+     <!-- ends container--> </div>
+     <!-- ends wrapper--> </div>
+
+      <footer class="hidden-print" id="footer">
+         <div class="inner-wrapper">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="row"><div class="col-sm-3 col-xs-6 col-ts-12">
+<ul>
+<li>
+<h3>More Information</h3>
+</li>
+<li><a href="/future/">Future Students</a></li>
+<li><a href="/stuaff/">Current Students</a></li>
+<li><a href="/staff/">Faculty &amp; Staff</a></li>
+<li><a href="/pfp/">Parents &amp; Family</a></li>
+<li><a href="https://msubfoundation.com/alumni/alumni">Alumni</a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6 col-ts-12">
+<ul>
+<li>
+<h3>Resources</h3>
+</li>
+<li><a href="/campus/">Maps</a></li>
+<li><a href="/dss/">Accessibility</a></li>
+<li><a href="/geninfo/contact.htm">Contact</a></li>
+<li><a href="/humres/jobs.htm">Jobs</a></li>
+<li><a href="/geninfo/legal_privacy_policy.htm">Legal &amp; Privacy Policy</a></li>
+<li><a href="/a-z_index/">Site&nbsp;Index</a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6 col-ts-12">
+<ul>
+<li>
+<h3>Follow Us</h3>
+</li>
+<li class="social-horizontal"><a title="MSU Billings on Facebook" href="https://www.facebook.com/MSUBillings"><span class="fa fa-facebook-square"><span class="sr-only">Facebook</span></span></a> <a title="MSU Billings on Twitter" href="https://twitter.com/msubillings"><span class="fa fa-twitter"><span class="sr-only">Twitter</span></span></a> <a title="MSU Billings on YouTube" href="https://www.youtube.com/user/msubillings"><span class="fa fa-youtube-play"><span class="sr-only">YouTube</span></span></a> <a title="MSU Billings on Instagram" href="http://instagram.com/msubillings"><span class="fa fa-instagram"><span class="sr-only">Instagram</span></span></a></li>
+</ul>
+<p>Located in Billings, MT</p>
+</div>
+                        <div class="col-sm-3 col-xs-6 col-ts-12">
+                           <div class="brand muted pull-right"><a href="https://www.msubillings.edu" onclick=" "><img src="/img/msub_footer_logo.svg" alt="Montana State University Billings" width="100%"></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+      </footer>
+      <!--<script type="text/javascript" src="/_resources/msu/2/scripts/_polyfills.js"> </script>-->
+<script type="text/javascript" src="/_resources/msu/2/scripts/script.js?d=20200414">// <![CDATA[
+
+// ]]></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script><script type="text/javascript" src="/_resources/msu/2/slick/slick.js"></script>
+      <script type="text/javascript">
+          /* Create a jquery extended function to reduce our current selection based on its ancestors */
+          jQuery.extend(jQuery.fn, {
+              hasAncestor: function (selector) {
+                  return this.filter(function () {
+                      return !!$(this).parent().closest(selector).length;
+                  });
+              }
+          });
+
+          $('.image-carousel').on('mouseout', function (event) {
+              var ourSlider = $(this).children('.slick-slider');
+              if ($(ourSlider).data('slick').autoplay) {
+                  $(ourSlider).slick('slickPlay');
+              }
+          });
+
+          function slickInit() {
+              $('.image-carousel > ul').not($('.image-carousel > ul').find('div.cope-asset').parent('ul')).each(function () {
+                  if ($(this).data('slick')) {
+                      $(this).slick();
+                  } else if ($(this).data('role') === 'carousel') {
+                      var dots;
+                      //default: false
+                      var arrows;
+                      //default: true
+                      var infinite;
+                      //default: true
+                      var autoplay;
+                      //default: false
+                      var autoplaySpeed;
+                      //default: 3000 (ms)
+                      var centerMode;
+                      //default: false
+                      var centerPadding;
+                      //default: 50px
+                      var slide;
+                      //default: ?
+                      var breakpoints = [];
+                      var responsive = [];
+                      var variableWidth;
+                      //default: false
+                      var cssEase;
+                      //default: ease
+                      var responsiveSettings = {
+                          'arrows': arrows,
+                          'centerMode': false,
+                          'centerPadding': '40px',
+                          'variableWidth': false,
+                          slidesToShow: 1,
+                      };
+
+                      breakpoints.forEach(function (point) {
+                          responsive.push({
+                              'breakpoint': point,
+                              'settings': responsiveSettings
+                          });
+                      });
+
+                  } else {
+                      if (!!$(this).hasAncestor('.container-fluid')) {
+                          $(this).slick({
+                              dots: true,
+                              infinite: true,
+                              speed: 500,
+                              fade: false,
+                              slide: 'li',
+                              cssEase: 'linear',
+                              centerMode: true,
+                              slidesToShow: 1,
+                              variableWidth: true,
+                              autoplay: true,
+                              autoplaySpeed: 4000,
+                              responsive: [{
+                                  breakpoint: 524,
+                                  settings: {
+                                      arrows: false,
+                                      centerMode: false,
+                                      centerPadding: '40px',
+                                      variableWidth: false,
+                                      slidesToShow: 1
+                                  }
+                              },
+                              {
+                                  breakpoint: 900,
+                                  settings: {
+                                      arrows: false,
+                                      centerMode: false,
+                                      centerPadding: '40px',
+                                      variableWidth: false,
+                                      slidesToShow: 1
+                                  }
+                              }]
+                          });
+                      } else if (!!$(this).hasAncestor('.container .slider-dots')) {
+
+                          $(this).slick({
+                              slide: 'li',
+                              dots: true,
+                              arrows: false
+                          });
+                      } else {
+
+                          $(this).slick({
+                              slide: 'li'
+                          });
+                      }
+                  }
+              });
+
+
+          }
+
+          $(document).ready(function () {
+              slickInit();
+          });
+
+      </script>
+
+</body>
+</html>

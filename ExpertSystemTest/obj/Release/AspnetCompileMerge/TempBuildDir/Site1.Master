@@ -9,7 +9,7 @@
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <meta name="description" content="Description"/>
+      <meta name="description" content="Below is a list of experts on various topics at MSUB in alphabetical order. Use the search bar to find people by name, expertise, department, etc."/>
       <meta name="keywords" content="Description"/>
     <title>Experts Database | MSU Billings</title>
     <!-- Mobile Chrome, Firefox -->
@@ -57,11 +57,11 @@
 </script><script type="text/javascript">
              OUC = typeof OUC !== "undefined" ? OUC : {};
              OUC.XSLVariables = typeof OUC.XSLVariables !== "undefined" ? OUC.XSLVariables : {};
-             OUC.XSLVariables.dirName = "/future/degrees/";
-             OUC.XSLVariables.pageName = OUC.XSLVariables.dirName + "index-new-search.htm";
+             OUC.XSLVariables.dirName = "/experts/index.aspx";
+             OUC.XSLVariables.pageName = OUC.XSLVariables.dirName + "index.aspx";
              OUC.XSLVariables.httpRoot = "https://www.msubillings.edu/";
 
-             var page_id = "https://www.msubillings.edu/future/degrees/index-new-search.htm";
+             var page_id = "https://www.msubillings.edu/experts/index.aspx";
 </script><!-- don't self close -->
      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     
@@ -122,10 +122,10 @@
                 <div id="rightpane" class="background-divided col-xs-12 pull-right page-content sec col-sm-12">
                     <div class="row">
                         <div id="breadcrumb" class="clearfix col-sm-12 hidden-print">
-                            <ul class="breadcrumb">
+                            <!-- <ul class="breadcrumb">
                                 <li><a href="/future/">Future Students</a></li>
                                 <li><a href="/future/degrees/">COVID-19 Central</a></li>
-                            </ul>
+                            </ul> --> 
                         </div>
                         <div class="col-sm-12 page-header clearfix">
                             <h1>Experts Database</h1>
@@ -183,7 +183,7 @@
       
     <button class="btn btn-default" id="search-button" aria-label="execute expert search" title="execute expert search"><i class="fa fa-search"></i></button>
       <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong><br />
-          Begin <a href="/test/steve-miller/experts-database/index.aspx">new search</a>.
+          Begin <a href="/experts/index.aspx">new search</a>.
       </span>
     <br/>
     </div>

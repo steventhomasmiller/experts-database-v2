@@ -57,11 +57,11 @@
 </script><script type="text/javascript">
              OUC = typeof OUC !== "undefined" ? OUC : {};
              OUC.XSLVariables = typeof OUC.XSLVariables !== "undefined" ? OUC.XSLVariables : {};
-             OUC.XSLVariables.dirName = "/test/steve-miller/experts-database/";
+             OUC.XSLVariables.dirName = "/experts/index.aspx";
              OUC.XSLVariables.pageName = OUC.XSLVariables.dirName + "index.aspx";
              OUC.XSLVariables.httpRoot = "https://www.msubillings.edu/";
 
-             var page_id = "https://www.msubillings.edu/test/steve-miller/experts-database/index.aspx";
+             var page_id = "https://www.msubillings.edu/experts/index.aspx";
 </script><!-- don't self close -->
      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     
@@ -183,7 +183,7 @@
       
     <button class="btn btn-default" id="search-button" aria-label="execute expert search" title="execute expert search"><i class="fa fa-search"></i></button>
       <span class="disclaimer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:shiloh.skillenrobison@msubillings.edu?subject=I would like to know more about an expert."><strong>Email University Commununications and Marketing</a> for media inquiries.</strong><br />
-          Begin <a href="/test/steve-miller/experts-database/index.aspx">new search</a>.
+          Begin <a href="/experts/index.aspx">new search</a>.
       </span>
     <br/>
     </div>
