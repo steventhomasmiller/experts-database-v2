@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQQrB5VHrdUG0eORb8eJ0iAAAAAACAAAAAAADZgAAwAAAABAAAABbMdaWNw0GhI7teZLKli6VAAAAAASAAACgAAAAEAAAAJlxHeIGSUPgimroxe/PU9UYAAAA22JRWsz6Zybn+Sb4G8VVFSTDP0mc7yHZFAAAAE8hsPbBvKSKZl/Xxo2OsqD6PSnC</EncryptedPassword>
     <_PublishTargetUrl>ftp://www.msubillings.edu:26/experts/</_PublishTargetUrl>
-    <History>True|2024-08-01T16:47:43.7665594Z;True|2023-10-09T11:03:48.2301250-06:00;True|2023-08-22T12:01:18.2934785-06:00;True|2023-08-22T11:58:52.5762501-06:00;True|2023-08-22T11:56:39.3505088-06:00;True|2023-08-22T11:02:35.5100847-06:00;True|2023-08-22T10:53:07.5880747-06:00;False|2023-08-22T10:51:08.3207028-06:00;False|2023-08-22T10:46:06.3200764-06:00;False|2023-08-22T10:44:40.3925484-06:00;False|2023-08-22T10:10:05.3642724-06:00;False|2023-08-22T10:07:29.6126241-06:00;False|2023-08-22T10:06:48.4587159-06:00;False|2023-08-22T10:02:04.6357371-06:00;False|2023-08-22T09:59:43.3778182-06:00;False|2023-08-22T09:56:04.8102841-06:00;False|2023-08-22T09:54:05.8379220-06:00;False|2023-08-22T09:52:37.8715583-06:00;False|2023-08-22T09:45:55.8147168-06:00;False|2023-08-22T09:35:05.9389823-06:00;False|2023-08-21T16:34:58.9016255-06:00;</History>
+    <History>True|2024-08-20T21:45:32.6584107Z;True|2024-08-01T10:47:43.7665594-06:00;True|2023-10-09T11:03:48.2301250-06:00;True|2023-08-22T12:01:18.2934785-06:00;True|2023-08-22T11:58:52.5762501-06:00;True|2023-08-22T11:56:39.3505088-06:00;True|2023-08-22T11:02:35.5100847-06:00;True|2023-08-22T10:53:07.5880747-06:00;False|2023-08-22T10:51:08.3207028-06:00;False|2023-08-22T10:46:06.3200764-06:00;False|2023-08-22T10:44:40.3925484-06:00;False|2023-08-22T10:10:05.3642724-06:00;False|2023-08-22T10:07:29.6126241-06:00;False|2023-08-22T10:06:48.4587159-06:00;False|2023-08-22T10:02:04.6357371-06:00;False|2023-08-22T09:59:43.3778182-06:00;False|2023-08-22T09:56:04.8102841-06:00;False|2023-08-22T09:54:05.8379220-06:00;False|2023-08-22T09:52:37.8715583-06:00;False|2023-08-22T09:45:55.8147168-06:00;False|2023-08-22T09:35:05.9389823-06:00;False|2023-08-21T16:34:58.9016255-06:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -21,10 +21,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/07/2023 10:02:49</publishTime>
     </File>
     <File Include="bin/ExpertSystemTest.dll">
-      <publishTime>08/01/2024 10:47:39</publishTime>
+      <publishTime>08/20/2024 15:45:28</publishTime>
     </File>
     <File Include="bin/ExpertSystemTest.pdb">
-      <publishTime>08/01/2024 10:47:39</publishTime>
+      <publishTime>08/20/2024 15:45:28</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>07/07/2023 10:02:51</publishTime>
@@ -96,7 +96,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/07/2023 10:58:35</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/01/2024 10:47:41</publishTime>
+      <publishTime>08/20/2024 15:45:29</publishTime>
     </File>
     <File Include="scripts/ai.0.22.9-build00167.js">
       <publishTime>07/07/2023 10:02:51</publishTime>
@@ -108,7 +108,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/11/2023 15:12:13</publishTime>
     </File>
     <File Include="Site1.Master">
-      <publishTime>10/09/2023 11:02:12</publishTime>
+      <publishTime>08/20/2024 15:43:57</publishTime>
     </File>
     <File Include="StyleSheet1.css">
       <publishTime>08/03/2023 10:37:42</publishTime>
