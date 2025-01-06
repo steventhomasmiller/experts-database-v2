@@ -7,7 +7,114 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQQrB5VHrdUG0eORb8eJ0iAAAAAACAAAAAAADZgAAwAAAABAAAAAKxOKntnVsC1vN/VFyTJGWAAAAAASAAACgAAAAEAAAAOp5O2xCbrfHGqHLlm8bt6QYAAAAX8utnmS6rIWyEE6LNsEdCb2glOo02toJFAAAAPcNNsQxsay82/x6jER3quRlfQLI</EncryptedPassword>
     <_PublishTargetUrl>ftp:// www.msubillings.edu:26/experts/</_PublishTargetUrl>
-    <History>False|2023-08-21T22:32:14.5521075Z;False|2023-08-21T16:31:46.9426429-06:00;False|2023-08-21T16:31:07.8750678-06:00;False|2023-08-21T16:28:35.9514379-06:00;</History>
+    <History>True|2025-01-06T16:27:30.5597807Z;False|2023-08-21T16:32:14.5521075-06:00;False|2023-08-21T16:31:46.9426429-06:00;False|2023-08-21T16:31:07.8750678-06:00;False|2023-08-21T16:28:35.9514379-06:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>07/07/2023 10:02:49</publishTime>
+    </File>
+    <File Include="billings-styles.css">
+      <publishTime>07/07/2023 10:02:49</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>07/07/2023 10:02:49</publishTime>
+    </File>
+    <File Include="bin/ExpertSystemTest.dll">
+      <publishTime>01/06/2025 09:27:10</publishTime>
+    </File>
+    <File Include="bin/ExpertSystemTest.pdb">
+      <publishTime>01/06/2025 09:27:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>07/07/2023 10:02:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>07/07/2023 10:02:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>07/07/2023 10:02:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>07/07/2023 10:02:53</publishTime>
+    </File>
+    <File Include="img/logo_2022_white.png">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>08/02/2023 15:17:02</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/07/2023 10:58:35</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>07/07/2023 10:02:51</publishTime>
+    </File>
+    <File Include="searchResults.html">
+      <publishTime>07/11/2023 15:12:13</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>01/06/2025 09:24:56</publishTime>
+    </File>
+    <File Include="StyleSheet1.css">
+      <publishTime>08/03/2023 10:37:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/06/2025 09:27:19</publishTime>
+    </File>
+    <File Include="website.publishproj.xml">
+      <publishTime>07/07/2023 10:02:50</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
